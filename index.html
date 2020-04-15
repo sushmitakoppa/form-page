@@ -13,7 +13,7 @@
   </head>
   <body>
       <h1 class="container"> BOOKMARKS:</h1>
-  
+      <form method="post" action="/users/bookmarks/addname" class="container">
         <div class="form-group">
             <label for="url">URL :</label>
             <input class="form-control" type="text" name="url" id="url" placeholder=" URL please... eg: https://" required>
@@ -24,8 +24,7 @@
             <label for="description">Description :</label>
             <input class="form-control" type="text" name="description" id="description" placeholder=" Description please..." required>
         </div>
-
-
+        
         <div class="form-group">
             <label for="#inputTag">Enter the tags:</label>
             <div class="tag_container">
